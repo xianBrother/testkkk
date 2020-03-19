@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.xiaoxiao9575.socketapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="查看IP地址和信息" />
+
+    <TextView
+        android:id="@+id/client"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="指定IP发送消息" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiaoxiao9575.socketapplication.ClientActivity">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入对方的IP地址" />
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:layout_height="wrap_content"
+        android:text="连接"
+        android:padding="20dp"
+        android:gravity="center"
+        android:background="@color/bg"/>
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要发送的信息"/>
+
+    <TextView
+        android:id="@+id/tv_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:text="发送" />
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
