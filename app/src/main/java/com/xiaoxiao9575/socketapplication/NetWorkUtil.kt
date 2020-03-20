@@ -26,7 +26,7 @@ object NetWorkUtil {
                 val wifiInfo = wifiManager.connectionInfo
                 return intIP2StringIP(wifiInfo.ipAddress)
             }
-        } else { //当前无网络连接,请在设置中打开网络
+        } else {
         }
         return null
     }
